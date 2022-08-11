@@ -1,0 +1,30 @@
+body {
+  background-color: #EAF6F6;
+}
+
+h3 {
+  color: #66BFBF;
+}
+
+h1 {
+  color: #66BFBF;
+}
+
+hr {
+  background-color: #EAF6F6;
+  border-style: none;
+  border-bottom-style: dotted;
+  border-color: black;
+  border-radius: 5px;
+  border-width: 7px;
+  width: 30%;
+}
+img:hover{
+  background-color: #66BFBF;
+}
+.chunnu{
+  border-radius: 80px;
+}
+p{
+  font-family: cursive;
+}

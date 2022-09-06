@@ -1,0 +1,171 @@
+body{
+  background-color: #66BFBF;
+  margin: 1px;
+}
+/* Body header */
+.Chunnu{
+  background-image: url("Photu.jpg");
+  width: 100vw;
+  height: 70vh;
+  background-size: cover;
+  background-position: top;
+  background-attachment: local;
+}
+/* Navigation */
+.list1{
+  margin-top: 3px;
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+.list1 li{
+  padding-left: 0px;
+  display: inline-block;
+  margin: 0px 20px 20px 20px;
+}
+.list1 li a{
+  color: black;
+  text-decoration: none;
+}
+.nav-menu li a{
+  transition: color 0.3s, border-bottom 3s;
+}
+.nav-menu li a:hover{
+  color: #FCFEFE;
+  border-bottom: 1px solid white;
+}
+.text{
+  text-align: center;
+}
+/* Name and Social*/
+h1{
+  margin-top: 50px;
+  font: aerial;
+  text-shadow: 1px;
+  font-family: cursive;
+}
+.name-social{
+  margin-top: 30vh;
+}
+#name{
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  margin-left: 20px;
+}
+.name-social li i{
+  margin-top: 30vh;
+  margin: 2px;
+  border-radius: 50%;
+}
+.name-social li i:hover{
+  box-shadow: 0px 0px 6px 3px #EAE3D2;
+}
+section{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section:nth-child(2n){
+  background-color: #EAF6F6 ;
+}
+section:nth-child(2n+1){
+  background-color: #66BFBF;
+}
+.section-heading{
+  width: auto;
+  padding: 20px 10px 10px;
+  margin: 10px auto;
+  font-weight: 500;
+}
+.section-heading span{
+  font-size: 30px;
+  display: inline-block;
+  color: darkblue;
+  padding-top: 10px;
+  margin-right: 0rem;
+}
+/* About me */
+#about{
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+.main-photu{
+  height: 12rem;
+  width: 12rem;
+  margin-top: -12.5vh;
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px 3px #FCD1D1;
+}
+p{
+  text-align: left;
+}
+.pehla{
+  font-family: cursive;
+  font-size: 15px;
+  color: #F9F5EB;
+}
+strong{
+  color: #2857a4;
+}
+/*Common classes*/
+.mb75px{
+  margin-bottom: 75px;
+}
+.mb-1{
+  background-color: #66BFBF;
+}
+.mb-2{
+  background-color: #FCD1D1;
+}
+/* Percentage Classes */
+.nine{
+  width: 90%;
+  height: inherit;
+}
+.eight{
+  width: 80%;
+  height: inherit;
+}
+/*Skeels*/
+.skills-display{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+}
+.progress{
+  width: 9rem;
+  height: 2rem;
+  background-color: darkgrey;
+  border-radius: 0.8rem;
+}
+.progress span{
+  color: #EAF6F6;
+  font-size: 1.2rem;
+  margin-left: 9px;
+  font-family: cursive;
+}
+.progress div{
+  border-radius: 20px 0px 0px 20px;
+}
+.p2{
+  width: 9rem;
+  height: 2rem;
+  background-color: darkgrey;
+  border-radius: 0.8rem;
+}
+.p2 span{
+  color: #EAF6F6;
+  font-size: 1.2rem;
+  margin-left: 9px;
+  font-family: cursive;
+}
+.p2>div{
+  border-radius: 20px 0px 0px 20px;
+}
